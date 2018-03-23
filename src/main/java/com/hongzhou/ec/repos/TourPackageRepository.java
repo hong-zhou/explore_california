@@ -34,5 +34,5 @@ public interface TourPackageRepository extends CrudRepository<TourPackage, Strin
 
 	@Override
 	@RestResource(exported=false)
-	<S extends TourPackage> S save(S arg0);			
+	<S extends TourPackage> S save(S arg0); 			
 }
